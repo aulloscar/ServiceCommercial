@@ -44,7 +44,7 @@ public class ReceptionNouvelleAffaire implements MessageListener {
                 rdvCommercial.setIdCommercial(1);
                 affaire.setRdvCommercial(rdvCommercial);
                 
-                // Enregistrement BD
+                // TODO Enregistrement BD
                 
                 // Envoi de la confirmation du rdv
                 EnvoiAffaire envoiAffaire = new EnvoiAffaire();
